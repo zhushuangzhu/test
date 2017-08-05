@@ -4,11 +4,11 @@ public class HashTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HashTest ht = new HashTest();
-		System.out.println(ht.additiveHash("zhushuangzhu", 13));
+		System.out.println("加了些配置-朱霜竹");
+		System.out.println(HashTest.additiveHash("zhushuangzhu", 13));
 	}
 
-	static int additiveHash(String key, int prime) {
+	public static int additiveHash(String key, int prime) {
 		int hash, i;
 		for (hash = key.length(), i = 0; i < key.length(); i++) {
 			System.out.println("key.charAt(i)=" + key.charAt(i));
