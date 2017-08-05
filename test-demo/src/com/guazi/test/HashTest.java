@@ -5,6 +5,7 @@ public class HashTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("加了些配置-朱霜竹");
+		System.out.println("加了些配置-朱霜竹2");
 		System.out.println(HashTest.additiveHash("zhushuangzhu", 13));
 	}
 
